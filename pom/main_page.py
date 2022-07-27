@@ -32,6 +32,8 @@ class AddButton(BaseObject):
     def click_to_remove(self):
         self.is_clickable('id', a.FIND_REMOVE).click()
 
+   
+
 
 
 class ButtonAsserts(BaseObject):
